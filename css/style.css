@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: blanchedalmond;
+}
+.transform{
+    text-align: center;
+    height: 900px;
+    background-color: white;
+    width: 70%;
+    margin: 30px auto;
+    padding: 50px;
+
+}
+
+.card{
+    background-color: violet;
+    height: 120px;
+    width: 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    transition: 1s;
+    float: left;
+}
+td{
+    padding:20px;
+}
+.rotate .p{
+    height: 20px;
+    width: 20px;
+}
+.rotate:hover{
+    transform: rotate(20deg);
+    visibility: visible;
+}
+.scale:hover{
+    transform: scale(0.6,0.6);
+}
+.translate:hover{
+    transform:translate(20px,10px)
+}
+.skew:hover{
+    transform: skewY(20deg);
+}
+.matrix:hover{
+    transform: matrix(0.586,0.8,-0.8,0.586,40,40);
+}
